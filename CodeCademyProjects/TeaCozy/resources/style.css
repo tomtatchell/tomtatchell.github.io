@@ -58,3 +58,137 @@ nav .nav-list li a:hover {
 }
 
 /* could use padding-top in main */
+
+
+/* Banner and mission */
+
+.mission-banner {
+    background-image: url('./img/img-mission-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mission-banner h2 {
+    background-color: black;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mission-banner h4 {
+    background-color: black;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+
+/* Tea of the Month */
+
+.tea-of-the-month {
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.tea-of-the-month h2 {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.tea-of-the-month h4 {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.teas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.tea-item{
+    padding: 10px 15px
+}
+
+.tea-item img {
+    width: 300px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+/*locations*/
+
+.locations {
+    background-image: url('./img/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.locations h2 {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.location-list {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+}
+
+.location {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.location h3 {
+    padding: 25px 0;
+}
+
+.location p {
+    padding: 25px 0;
+}
+
+/*footer*/
+
+.contact {
+    height: 200px;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.contact h2 {
+    padding-bottom: 25px;
+}
+
+.contact h5 {
+    padding: 15px 0;
+}
+
+.copyright {
+    text-align: left;
+    padding-left: 20px;
+}
